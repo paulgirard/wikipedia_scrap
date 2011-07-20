@@ -1,38 +1,61 @@
+CREATE DATABASE IF NOT EXISTS wikipediaControversies;
 
+USE wikipediaControversies;
 
-Article
-    pageid= varchar 
-    pagetitle= varchar K
-    
-    
-class Revision(Item):
-    revid= varchar KEY
-    parentid= varchar FK
-    minor= bool
-    size= int
-    timestamp= time
-    content= Text
-    tags=varchar
-    comment=Text
-    #link to Article
-    pageid=FK
-    # link to user
-    userid=FK
+CREATE TABLE IF NOT EXISTS `article` (
+`id` int NOT NULL AUTO_INCREMENT,
+`pageid` INT NULL,
+`pagetitle` VARCHAR(512) NOT NULL,
+PRIMARY KEY (`id`)
+)
+ENGINE = MyISAM
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_bin;
 
-class User(Item):
-    user= varchar
-    userid= varchar
-    revid= varchar FK
-    pageid= varchar FK
-    
-class Template(Item) :
-    template= varchar 
-    revid= varchar
-                    double key
-    pageid= varchar
- 
-class Link(Item):
-    revid  varchar FK
-    pagetitle varchar FK
-    text  varchar
-    abstract bool 
+CREATE TABLE IF NOT EXISTS `revision` (
+`revid` INT NOT NULL,
+`parentid` INT NOT NULL,
+`pageid` INT NOT NULL,
+`userid` INT NOT NULL,
+`minor` BOOLEAN,
+`size` INT,
+`timestamp` DATETIME,
+`content` TEXT,
+`comment` TEXT,
+PRIMARY KEY (`revid`)
+)
+ENGINE = MyISAM
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_bin;
+
+CREATE TABLE IF NOT EXISTS `user` (
+`userid` INT NOT NULL,
+`revid` INT NOT NULL,
+`pageid` INT NOT NULL,
+`user` VARCHAR(255) NOT NULL,
+PRIMARY KEY (`userid`)
+)
+ENGINE = MyISAM
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_bin;
+
+CREATE TABLE IF NOT EXISTS `template` (
+`template` VARCHAR(512) NOT NULL,
+`revid` INT NOT NULL,
+`pageid` INT NOT NULL
+)
+ENGINE = MyISAM
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_bin;
+
+CREATE TABLE IF NOT EXISTS `link` (
+`linkid` INT NOT NULL,
+`pagetitle` VARCHAR(512) NOT NULL,
+`text` VARCHAR(512) NOT NULL,
+`revid` INT NOT NULL,
+`abstract` BOOLEAN,
+PRIMARY KEY (`linkid`)
+)
+ENGINE = MyISAM
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_bin;
