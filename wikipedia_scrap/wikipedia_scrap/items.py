@@ -25,4 +25,6 @@ class WikipediaRevisionItem(Item):
     timestamp= Field()
     content= Field()
     tags=Field()
+    anon=Field()
+    comment=Field()
     

@@ -14,3 +14,5 @@ NEWSPIDER_MODULE = 'wikipedia_scrap.spiders'
 DEFAULT_ITEM_CLASS = 'wikipedia_scrap.items.WikipediaScrapItem'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 
+DEPTH_LIMIT=0
+
