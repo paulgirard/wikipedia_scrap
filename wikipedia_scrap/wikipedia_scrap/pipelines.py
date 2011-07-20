@@ -3,7 +3,7 @@ from twisted.enterprise import adbapi
 from wikipedia_scrap.items import Article,Revision,Template,Link,User
 
 import time
-import MySQLdb.cursors
+#import MySQLdb.cursors
 
 class MySQLStorePipeline(object):
 
