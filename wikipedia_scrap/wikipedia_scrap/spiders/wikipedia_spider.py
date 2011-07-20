@@ -12,7 +12,7 @@ import urlparse,urllib,re
 class Wikipedia_scrapSpider(CrawlSpider):
     name = "wikipedia_api"
     allowed_domains = ["en.wikipedia.org"]
-    start_urls = [  "http://en.wikipedia.org/w/api.php?action=query&prop=revisions&format=json&titles=Global_warming&rvprop=ids|timestamp|flags|user|size|userid|tags|comment|content&rvlimit=500"
+    start_urls = [  "http://en.wikipedia.org/w/api.php?action=query&prop=revisions&format=json&titles=Global_warming&rvprop=ids|timestamp|flags|user|size|userid|tags|comment|content&rvlimit=2"
     ]
     
     rules = (
@@ -94,6 +94,7 @@ class Wikipedia_scrapSpider(CrawlSpider):
                     links.append(link)
                     art=Article()
                     art["pagetitle"]=linktitle
+                    art["pageid"]=0
                     articles.append(art)
         items+=revisions+users+templates+links+articles
         return items   
