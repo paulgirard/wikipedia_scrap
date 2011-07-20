@@ -39,15 +39,45 @@ class NextPageResultJSONExtractor() :
                 # no more pages to crawl 
                 return []            
     
-#     def process_links(self, links):
-#         """ Normalize and filter extracted links
-#         The subclass should override it if neccessary
-#         """
-#         return links
-# 
-#     
-#     def matches(self, url):
-#         """This extractor matches with any url, since
-#         it doesn't contain any patterns"""
-#         return True
-    
+# class OutLinkedArticleExtractor() :
+#             
+#     def extract_links(self,json_response) :
+#             # extract and annotate article if present in Abstract
+#             try:
+#             
+#                 #clean 
+#                 del \n
+#                 before "{{Featured article}}"
+#                 del "{{.*}}"
+#             
+#                 # abstract 
+#                 extract .*==
+#                 
+#                 # links t article are [[text|page]]
+#                 
+#                 
+#                 Article title, order, abstract
+#                 
+#             
+#                 response_dict=json.loads(json_response.body)
+#                 new_query_arg=response_dict["query-continue"][response_dict["query-continue"].keys()[0]]
+#                 #print "old url : "+json_response.url
+#                 url=urlparse.urlparse(json_response.url)
+#                 #print url
+#                 query_dict=urlparse.parse_qs(url.query)
+#                 # weird bug ? 
+#                 for k,v in query_dict.iteritems() :
+#                     query_dict[k]=v[0]
+#                     
+#                 #print query_dict
+#                 query_dict.update(new_query_arg)
+#                 new_query=urllib.urlencode(query_dict)
+#                 #new_query= "&".join( [k+"="+v[0] for k,v in query_dict.iteritems()])
+#                 url=urlparse.urlunsplit([url.scheme,url.netloc,url.path,new_query,url.fragment])
+#                 link=Link(url=url)
+#                 log.msg("end of extract links",log.DEBUG)
+#                 self.links.append(link)
+#                 return self.links
+#             except:
+#                 # no more pages to crawl 
+#                 return []     
