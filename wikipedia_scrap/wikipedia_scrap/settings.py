@@ -14,6 +14,15 @@ NEWSPIDER_MODULE = 'Wikipedia_scrap.spiders'
 DEFAULT_ITEM_CLASS = 'Wikipedia_scrap.items.WikipediaRevisionItem'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 
+# DB SETTINGS
+WIKIPEDIASCRAP_DB_ADAPTER = 'MySQLdb'
+WIKIPEDIASCRAP_DB_CURSORCLASS = 'MySQLdb.cursors.DictCursor'
+WIKIPEDIASCRAP_DB_ENCODING = 'utf8' # make sure this is the same as DEFAULT_RESPONSE_ECODING
+WIKIPEDIASCRAP_DB_NAME = 'wikipediaControversies'
+WIKIPEDIASCRAP_DB_USER = 'controversy_user'
+WIKIPEDIASCRAP_DB_PASS = 'controversy_pass'
+
+# SCRAPY SETTINGS
 LOG_ENABLED = True                  
 LOG_LEVEL = 'DEBUG'                 # options: CRITICAL, ERROR, WARNING, INFO, DEBUG
 LOG_FILE = 'scrape.log'             # default = None
