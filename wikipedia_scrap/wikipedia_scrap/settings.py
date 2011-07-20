@@ -13,6 +13,9 @@ SPIDER_MODULES = ['wikipedia_scrap.spiders']
 NEWSPIDER_MODULE = 'wikipedia_scrap.spiders'
 DEFAULT_ITEM_CLASS = 'wikipedia_scrap.items.Revision'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
+ITEM_PIPELINES = [
+    'wikipedia_scrap.pipelines.MySQLStorePipeline', 
+ ]
 
 # DB SETTINGS
 WIKIPEDIASCRAP_DB_ADAPTER = 'MySQLdb'
