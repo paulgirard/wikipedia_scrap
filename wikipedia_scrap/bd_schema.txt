@@ -1,3 +1,4 @@
+DROP DATABASE wikipediaControversies;
 CREATE DATABASE IF NOT EXISTS wikipediaControversies;
 
 USE wikipediaControversies;
@@ -6,6 +7,7 @@ CREATE TABLE IF NOT EXISTS `article` (
 `id` int NOT NULL AUTO_INCREMENT,
 `pageid` INT NULL,
 `pagetitle` VARCHAR(512) NOT NULL,
+`language` VARCHAR(8) NOT NULL,
 PRIMARY KEY (`id`)
 )
 ENGINE = MyISAM
@@ -22,6 +24,8 @@ CREATE TABLE IF NOT EXISTS `revision` (
 `timestamp` DATETIME,
 `content` TEXT,
 `comment` TEXT,
+`tags` TEXT,
+`language` VARCHAR(8) NOT NULL,
 PRIMARY KEY (`revid`)
 )
 ENGINE = MyISAM
@@ -33,6 +37,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 `revid` INT NOT NULL,
 `pageid` INT NOT NULL,
 `user` VARCHAR(255) NOT NULL,
+`language` VARCHAR(8) NOT NULL,
 PRIMARY KEY (`userid`)
 )
 ENGINE = MyISAM
@@ -42,7 +47,8 @@ COLLATE = utf8_bin;
 CREATE TABLE IF NOT EXISTS `template` (
 `template` VARCHAR(512) NOT NULL,
 `revid` INT NOT NULL,
-`pageid` INT NOT NULL
+`pageid` INT NOT NULL,
+`language` VARCHAR(8) NOT NULL
 )
 ENGINE = MyISAM
 DEFAULT CHARACTER SET = utf8
@@ -54,6 +60,7 @@ CREATE TABLE IF NOT EXISTS `link` (
 `text` VARCHAR(512) NOT NULL,
 `revid` INT NOT NULL,
 `abstract` BOOLEAN,
+`language` VARCHAR(8) NOT NULL,
 PRIMARY KEY (`linkid`)
 )
 ENGINE = MyISAM

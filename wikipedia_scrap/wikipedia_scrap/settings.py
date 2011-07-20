@@ -32,7 +32,7 @@ LOG_FILE = 'scrape.log'             # default = None
 
 CONCURRENT_ITEMS = 100
 CONCURRENT_REQUESTS_PER_SPIDER = 8
-CONCURRENT_SPIDERS = 8
+CONCURRENT_SPIDERS = 16		  # default = 8
 DEFAULT_RESPONSE_ENCODING = 'utf8' # default = ascii
 
 DEPTH_LIMIT = 10
