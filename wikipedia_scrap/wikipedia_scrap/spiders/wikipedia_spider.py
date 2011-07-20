@@ -12,12 +12,12 @@ import urlparse,urllib
 class Wikipedia_scrapSpider(CrawlSpider):
     name = "wikipedia_api"
     allowed_domains = ["en.wikipedia.org"]
-    start_urls = [  "http://en.wikipedia.org/w/api.php?action=query&prop=revisions&format=json&titles=Climate_change&rvprop=ids|timestamp|flags|user|size|userid|tags&rvlimit=5",
+    start_urls = [  "http://en.wikipedia.org/w/api.php?action=query&prop=revisions&format=json&titles=Climate_change&rvprop=ids|timestamp|flags|user|size|userid|tags&rvlimit=5"
     ]
     
     rules = (
         # Extract new page result url
-        Rule(NextPageResultJSONExtractor()),
+        Rule(NextPageResultJSONExtractor(),callback="parse_start_url"),
 
     )
         
