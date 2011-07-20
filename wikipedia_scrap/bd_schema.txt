@@ -1,0 +1,38 @@
+
+
+Article
+    pageid= varchar 
+    pagetitle= varchar K
+    
+    
+class Revision(Item):
+    revid= varchar KEY
+    parentid= varchar FK
+    minor= bool
+    size= int
+    timestamp= time
+    content= Text
+    tags=varchar
+    comment=Text
+    #link to Article
+    pageid=FK
+    # link to user
+    userid=FK
+
+class User(Item):
+    user= varchar
+    userid= varchar
+    revid= varchar FK
+    pageid= varchar FK
+    
+class Template(Item) :
+    template= varchar 
+    revid= varchar
+                    double key
+    pageid= varchar
+ 
+class Link(Item):
+    revid  varchar FK
+    pagetitle varchar FK
+    text  varchar
+    abstract bool 
