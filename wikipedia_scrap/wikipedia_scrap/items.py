@@ -13,16 +13,16 @@ class WikipediaUserItem(Item):
     userid=Field()
     editcount = Field()
     registration= Field()
-	
+    
 class WikipediaRevisionItem(Item):
-	pageid= Field()
-	parentid=Field()
-	minor=Field()
-	user=Field()
-	userid=Field()
-	revid= Field()
-	size= Field()
-	timestamp= Field()
-	content= Field()
-	tags=Field()
-	
+    pageid= Field()
+    parentid=Field()
+    minor=Field()
+    user=Field()
+    userid=Field()
+    revid= Field()
+    size= Field()
+    timestamp= Field()
+    content= Field()
+    tags=Field()
+    
