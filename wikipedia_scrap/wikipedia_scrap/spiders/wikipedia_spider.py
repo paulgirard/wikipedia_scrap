@@ -132,8 +132,8 @@ class Wikipedia_scrapSpider(CrawlSpider):
                                 art["pageid"]=0
                                 art["language"]=language
                                 articles.append(art)
-                        except :
-                            log.msg("exception in parsing at item level",log.WARNING)
+                except :
+                    log.msg("exception in parsing at item level",log.WARNING)
             items+=revisions+users+templates+links+articles
         except :
             log.msg("exception in parsing",log.WARNING)
