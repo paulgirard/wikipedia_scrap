@@ -5,25 +5,37 @@
 
 from scrapy.item import Item, Field
 
-class WikipediaUserItem(Item):
-    # define the fields for your item here like:
-    # name = Field()
-    # Define here the models for your scraped items
-    login = Field()
-    userid=Field()
-    editcount = Field()
-    registration= Field()
-    
-class WikipediaRevisionItem(Item):
-    pageid= Field()
+class Revision(Item):
+    revid= Field()
     parentid=Field()
     minor=Field()
-    user=Field()
-    userid=Field()
-    revid= Field()
     size= Field()
     timestamp= Field()
     content= Field()
     tags=Field()
     comment=Field()
+    #link to Article
+    pageid=Field()
+    # link to user
+    userid=Field()
+
+class Article(Item):
+    pageid= Field()
+    pagetitle=Field()
     
+class Template(Item) :
+    template=Field()
+    revid=Field()
+    pageid=Field()
+ 
+class Link(Item):
+    revid=Field()
+    pagetitle=Field()
+    text=Field()
+    abstract=Field()
+ 
+class User(Item):
+    user=Field()
+    userid=Field()
+    revid=Field()
+    pageid=Field()

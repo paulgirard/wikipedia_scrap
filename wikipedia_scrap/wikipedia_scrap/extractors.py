@@ -32,7 +32,6 @@ class NextPageResultJSONExtractor() :
                 #new_query= "&".join( [k+"="+v[0] for k,v in query_dict.iteritems()])
                 url=urlparse.urlunsplit([url.scheme,url.netloc,url.path,new_query,url.fragment])
                 link=Link(url=url)
-                log.msg("end of extract links",log.DEBUG)
                 self.links.append(link)
                 return self.links
             except:
@@ -48,13 +47,15 @@ class NextPageResultJSONExtractor() :
 #                 #clean 
 #                 del \n
 #                 before "{{Featured article}}"
-#                 del "{{.*}}"
+#                 
 #             
 #                 # abstract 
 #                 extract .*==
 #                 
 #                 # links t article are [[text|page]]
 #                 
+#                 # template
+#                 "{{.*}}"
 #                 
 #                 Article title, order, abstract
 #                 
