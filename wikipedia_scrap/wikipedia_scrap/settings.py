@@ -6,12 +6,12 @@
 # More info about settings here: http://doc.scrapy.org/topics/settings.html
 # Default values here: https://github.com/insophia/scrapy/blob/master/scrapy/settings/default_settings.py
 
-BOT_NAME = 'wikipediaInlinks'
+BOT_NAME = 'Wikipedia_scrap'
 BOT_VERSION = '1.0'
 
-SPIDER_MODULES = ['wikipediaInlinks.spiders']
-NEWSPIDER_MODULE = 'wikipediaInlinks.spiders'
-DEFAULT_ITEM_CLASS = 'wikipediaInlinks.items.WikipediainlinksItem'
+SPIDER_MODULES = ['Wikipedia_scrap.spiders']
+NEWSPIDER_MODULE = 'Wikipedia_scrap.spiders'
+DEFAULT_ITEM_CLASS = 'Wikipedia_scrap.items.WikipediaRevisionItem'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 
 LOG_ENABLED = True                  
@@ -21,7 +21,7 @@ LOG_FILE = 'scrape.log'             # default = None
 CONCURRENT_ITEMS = 100
 CONCURRENT_REQUESTS_PER_SPIDER = 8
 CONCURRENT_SPIDERS = 8
-DEFAULT_RESPONSE_ENCODING = 'utf-8' # default = ascii
+DEFAULT_RESPONSE_ENCODING = 'utf8' # default = ascii
 
 DEPTH_LIMIT = 0
 DEPTH_STATS = True
