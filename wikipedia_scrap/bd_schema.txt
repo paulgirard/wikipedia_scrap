@@ -1,3 +1,4 @@
+DROP DATABASE wikipediaControversies;
 CREATE DATABASE IF NOT EXISTS wikipediaControversies;
 
 USE wikipediaControversies;
@@ -22,6 +23,7 @@ CREATE TABLE IF NOT EXISTS `revision` (
 `timestamp` DATETIME,
 `content` TEXT,
 `comment` TEXT,
+`tags` TEXT,
 PRIMARY KEY (`revid`)
 )
 ENGINE = MyISAM
