@@ -20,8 +20,8 @@ class MySQLStorePipeline(object):
 
     def process_item(self, spider, item):
         # run db query in thread pool
-        log.msg(item)
-        log.msg(isinstance(item,Article))
+        log.msg(item,level=log.DEBUG)
+        log.msg(isinstance(item,Article),level=log.DEBUG)
         if isinstance(item,Article) :
             query = self.dbpool.runInteraction(self._insert_article, item)
         elif isinstance(item,Revision) :
@@ -40,29 +40,29 @@ class MySQLStorePipeline(object):
     def _insert_article(self, tx, article):
         # create record if doesn't exist.
         print article['pagetitle']+" "+str(article['pageid']) 
-        tx.execute("insert   into article (pagetitle, pageid ) values (%s, %s )", (article['pagetitle'], article['pageid']))
-        log.msg("Item stored in db: %s" % article['pagetitle'], level=log.DEBUG)
+        tx.execute("insert   into article (pagetitle, pageid ) values (%s, %s )", (article['pagetitle'], article['pageid'],))
+        log.msg("Article stored in db: %s" % article['pagetitle'], level=log.DEBUG)
     
     def _insert_revision(self, tx, revision):
         # create record if doesn't exist.
-        tx.execute("insert   into revision (revid, parentid,minor,size,timestamp,content,tags,comment,pageid,userid) values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)", (revision['revid'],revision['parentid'],revision['minor'],revision['size'],revision['timestamp'],revision['content'],revision['tags'],revision['comment'],revision['pageid'],revision['userid']))
-        log.msg("Item stored in db: %s" % revision['revid'], level=log.DEBUG)
+        tx.execute("insert   into revision (revid, parentid,minor,size,timestamp,content,tags,comment,pageid,userid) values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)", (revision['revid'],revision['parentid'],revision['minor'],revision['size'],revision['timestamp'],revision['content'],revision['tags'],revision['comment'],revision['pageid'],revision['userid'],))
+        log.msg("Revision stored in db: %s" % revision['revid'], level=log.DEBUG)
 
     
     def _insert_user(self, tx, user):
         # create record if doesn't exist.
-        tx.execute("insert  into user (user,userid,revid,pageid) values (%s,%s,%s,%s)", (user['user'],user['userid'],user['revid'],user['pageid']))
-        log.msg("Item stored in db: %s" % user['user'], level=log.DEBUG)
+        tx.execute("insert  into user (user,userid,revid,pageid) values (%s,%s,%s,%s)", (user['user'],user['userid'],user['revid'],user['pageid'],))
+        log.msg("User stored in db: %s" % user['user'], level=log.DEBUG)
     
     def _insert_template(self, tx, template):
         # create record if doesn't exist.
-        tx.execute("insert  into template (template,revid,pageid) values (%s,%s,%s)", (user['template'],user['revid'],user['pageid']))
-        log.msg("Item stored in db: %s" % template['template'], level=log.DEBUG)
+        tx.execute("insert  into template (template,revid,pageid) values (%s,%s,%s)", (user['template'],user['revid'],user['pageid'],))
+        log.msg("Template stored in db: %s" % template['template'], level=log.DEBUG)
     
     def _insert_link(self, tx, link):
         # create record if doesn't exist.
-        tx.execute("insert  into link (revid,pagetitle,text,abstract) values (%s,%s,%s)", (link['revid'],link['pagetitle'],link['text'],link['abstract']))
-        log.msg("Item stored in db: %s" % link['revid']+"-"+link['pagetitle'], level=log.DEBUG)
+        tx.execute("insert  into link (revid,pagetitle,text,abstract) values (%s,%s,%s,%s)", (link['revid'],link['pagetitle'],link['text'],link['abstract'],))
+        log.msg("Link stored in db: %s" % link['revid']+"-"+link['pagetitle'], level=log.DEBUG)
 
     def handle_error(self, e):
         log.err(e)
