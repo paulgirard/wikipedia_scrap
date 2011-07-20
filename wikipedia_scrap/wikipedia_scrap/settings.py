@@ -6,12 +6,12 @@
 # More info about settings here: http://doc.scrapy.org/topics/settings.html
 # Default values here: https://github.com/insophia/scrapy/blob/master/scrapy/settings/default_settings.py
 
-BOT_NAME = 'Wikipedia_scrap'
+BOT_NAME = 'wikipedia_scrap'
 BOT_VERSION = '1.0'
 
-SPIDER_MODULES = ['Wikipedia_scrap.spiders']
-NEWSPIDER_MODULE = 'Wikipedia_scrap.spiders'
-DEFAULT_ITEM_CLASS = 'Wikipedia_scrap.items.WikipediaRevisionItem'
+SPIDER_MODULES = ['wikipedia_scrap.spiders']
+NEWSPIDER_MODULE = 'wikipedia_scrap.spiders'
+DEFAULT_ITEM_CLASS = 'wikipedia_scrap.items.Revision'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 
 # DB SETTINGS
@@ -25,7 +25,7 @@ WIKIPEDIASCRAP_DB_PASS = 'controversy_pass'
 # SCRAPY SETTINGS
 LOG_ENABLED = True                  
 LOG_LEVEL = 'DEBUG'                 # options: CRITICAL, ERROR, WARNING, INFO, DEBUG
-LOG_FILE = 'scrape.log'             # default = None
+#LOG_FILE = 'scrape.log'             # default = None
 
 CONCURRENT_ITEMS = 100
 CONCURRENT_REQUESTS_PER_SPIDER = 8
