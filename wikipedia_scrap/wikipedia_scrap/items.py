@@ -18,24 +18,29 @@ class Revision(Item):
     pageid=Field()
     # link to user
     userid=Field()
+    language=Field()
 
 class Article(Item):
     pageid= Field()
     pagetitle=Field()
+    language=Field()
     
 class Template(Item) :
     template=Field()
     revid=Field()
     pageid=Field()
+    language=Field()
  
 class Link(Item):
     revid=Field()
     pagetitle=Field()
     text=Field()
     abstract=Field()
+    language=Field()
  
 class User(Item):
     user=Field()
     userid=Field()
     revid=Field()
     pageid=Field()
+    language=Field()

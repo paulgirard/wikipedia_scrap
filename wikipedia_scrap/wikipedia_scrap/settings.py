@@ -27,15 +27,15 @@ WIKIPEDIASCRAP_DB_PASS = 'controversy_pass'
 
 # SCRAPY SETTINGS
 LOG_ENABLED = True                  
-LOG_LEVEL = 'DEBUG'                 # options: CRITICAL, ERROR, WARNING, INFO, DEBUG
-#LOG_FILE = 'scrape.log'             # default = None
+LOG_LEVEL = 'WARNING'                 # options: CRITICAL, ERROR, WARNING, INFO, DEBUG
+LOG_FILE = 'scrape.log'             # default = None
 
 CONCURRENT_ITEMS = 100
 CONCURRENT_REQUESTS_PER_SPIDER = 8
 CONCURRENT_SPIDERS = 8
 DEFAULT_RESPONSE_ENCODING = 'utf8' # default = ascii
 
-DEPTH_LIMIT = 0
+DEPTH_LIMIT = 10
 DEPTH_STATS = True
 
 DOWNLOADER_STATS = True
