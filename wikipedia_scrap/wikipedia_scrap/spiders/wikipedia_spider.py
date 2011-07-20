@@ -31,8 +31,10 @@ class Wikipedia_scrapSpider(CrawlSpider):
             revision["pageid"]=page["pageid"]
             
             for key in revision.keys():
-            	if key!="anon":
+            	if key in rv.keys():
 	                rv[key]=revision[key]
+	            elif key=="*" :
+	            	rv["content"]=revision[key]
                 
             revisions.append(rv)
         return revisions
