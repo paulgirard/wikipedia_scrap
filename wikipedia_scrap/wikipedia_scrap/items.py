@@ -27,13 +27,14 @@ class Article(Item):
     
 class Template(Item) :
     template=Field()
+    metadata=Field()
     revid=Field()
     pageid=Field()
     language=Field()
  
 class Link(Item):
     revid=Field()
-    pagetitle=Field()
+    link=Field()
     text=Field()
     abstract=Field()
     language=Field()

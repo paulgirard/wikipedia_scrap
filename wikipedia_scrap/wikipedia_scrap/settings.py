@@ -28,7 +28,7 @@ WIKIPEDIASCRAP_DB_PASS = 'controversy_pass'
 # SCRAPY SETTINGS
 LOG_ENABLED = True                  
 LOG_LEVEL = 'WARNING'                 # options: CRITICAL, ERROR, WARNING, INFO, DEBUG
-LOG_FILE = 'scrape.log'             # default = None
+LOG_FILE = 'scrape_globalwarming_subarticles.log'             # default = None
 
 CONCURRENT_ITEMS = 100
 CONCURRENT_REQUESTS_PER_SPIDER = 8

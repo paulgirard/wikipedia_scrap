@@ -55,13 +55,13 @@ class MySQLStorePipeline(object):
     
     def _insert_template(self, tx, template):
         # create record if doesn't exist.
-        tx.execute("insert IGNORE into template (template,revid,pageid,language) values (%s,%s,%s,%s)", (user['template'],user['revid'],user['pageid'],user['language'],))
+        tx.execute("insert IGNORE into template (template,metadata,revid,pageid,language) values (%s,%s,%s,%s,%s)", (template['template'],template['metadata'],template['revid'],template['pageid'],template['language'],))
         log.msg("Template stored in db: %s" % template['template'], level=log.DEBUG)
     
     def _insert_link(self, tx, link):
         # create record if doesn't exist.
-        tx.execute("insert IGNORE into link (revid,pagetitle,text,abstract,language) values (%s,%s,%s,%s,%s)", (link['revid'],link['pagetitle'],link['text'],link['abstract'],link['language'],))
-        log.msg("Link stored in db: %s" % link['revid']+"-"+link['pagetitle'], level=log.DEBUG)
+        tx.execute("insert IGNORE into link (revid,link,text,abstract,language) values (%s,%s,%s,%s,%s)", (link['revid'],link['link'],link['text'],link['abstract'],link['language'],))
+        log.msg("Link stored in db: %s" % link['revid']+"-"+link['link'], level=log.DEBUG)
 
     def handle_error(self, e):
         log.err(e)
