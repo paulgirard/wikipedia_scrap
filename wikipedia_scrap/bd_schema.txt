@@ -46,6 +46,7 @@ COLLATE = utf8_bin;
 
 CREATE TABLE IF NOT EXISTS `template` (
 `template` VARCHAR(512) NOT NULL,
+`metadata` TEXT,
 `revid` INT NOT NULL,
 `pageid` INT NOT NULL,
 `language` VARCHAR(8) NOT NULL
@@ -56,7 +57,7 @@ COLLATE = utf8_bin;
 
 CREATE TABLE IF NOT EXISTS `link` (
 `linkid` INT NOT NULL AUTO_INCREMENT,
-`pagetitle` VARCHAR(512) NOT NULL,
+`link` VARCHAR(512) NOT NULL,
 `text` VARCHAR(512) NOT NULL,
 `revid` INT NOT NULL,
 `abstract` BOOLEAN,
