@@ -16,15 +16,15 @@ COLLATE = utf8_bin;
 
 CREATE TABLE IF NOT EXISTS `revision` (
 `revid` INT NOT NULL,
-`parentid` INT NOT NULL,
+`parentid` INT,
 `pageid` INT NOT NULL,
 `userid` INT NOT NULL,
 `minor` BOOLEAN,
 `size` INT,
 `timestamp` DATETIME,
-`content` TEXT,
-`comment` TEXT,
-`tags` TEXT,
+`content` LONGTEXT,
+`comment` LONGTEXT,
+`tags` LONGTEXT,
 `language` VARCHAR(8) NOT NULL,
 PRIMARY KEY (`revid`)
 )
