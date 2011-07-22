@@ -112,32 +112,41 @@ class Wikipedia_scrapSpider(CrawlSpider):
                     #process content to extract templates and links
                     #clean \n
                     try :
-                        rev_content_cleaned=re.sub("\n","",rv["content"])
-                        # template item
-                        wikitemplates=re.findall("\{\{(.*?)\}\}",rev_content_cleaned)
+                    #TODO  : there were a bug in tempalte parsing.
+                    # see the special script rewrote to detect bug
+                    
+                    # WARNING : the protected flags in German are not coded in normal templates...
+                    
+                    
                         templates=[]
-                        for template in wikitemplates :
-                            tmp=Template()
-                            
-                            
-                            if "|" in template : 
-                                templateparts=template.split("|")
-                                template=templateparts[0]
-                                templatemetadata="|".join(templateparts[1:])
-                            else :
-                                templatemetadata=""
-                            tmp["template"]=template
-                            tmp["metadata"]=templatemetadata
-                            
-                            tmp["revid"]=rv["revid"]
-                            tmp["pageid"]=pageid
-                            tmp["language"]=language
-                            #store templates
-                            templates.append(tmp)
+                        if rv["content"] not None :
+                            rev_content_cleaned=rv["content"]
+                            # template item
+                            wikitemplates=re.findall("\{\{(.*?)\}\}",rev_content_cleaned)
+                           
+                            for template in wikitemplates :
+                                tmp=Template()
+                                
+                                
+                                if "|" in template : 
+                                    templateparts=template.split("|")
+                                    template=templateparts[0]
+                                    templatemetadata="|".join(templateparts[1:])
+                                else :
+                                    templatemetadata=""
+                                tmp["template"]=template
+                                tmp["metadata"]=templatemetadata
+                                
+                                tmp["revid"]=rv["revid"]
+                                tmp["pageid"]=pageid
+                                tmp["language"]=language
+                                #store templates
+                                templates.append(tmp)
                     except Exception as e :
                         templates=[]
                         log.msg("exception in parsing at templates parsing "+str(e),log.WARNING)
-                    try :	                       
+                    try :	 
+                    	# TODO : change the between section parsing method                      
                         # abstract / article
                         sections=rev_content_cleaned.split("==")
                        
