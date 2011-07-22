@@ -1,0 +1,1035 @@
+{
+    "bias": {
+        "1911 POV": [], 
+        "Autobiography": [], 
+        "By whom": [], 
+        "COI": [], 
+        "COI-check": [], 
+        "COI-section": [], 
+        "Catholic-cleanup": [], 
+        "Cherry picked": [], 
+        "Coat rack": [], 
+        "Like-resume": [], 
+        "Lopsided": [
+            {
+                "enddate": "2010-05-24 | 2010-05-30", 
+                "endrevid": 363939950, 
+                "occurences": 1, 
+                "startdate": "2010-05-24 | 2010-05-30", 
+                "startrevi": 363836814, 
+                "template": "bias/Lopsided"
+            }
+        ], 
+        "Magazine": [], 
+        "Memorial": [], 
+        "NPOV disputes progress": [], 
+        "NPOV language": [], 
+        "Obituary": [], 
+        "POV": [
+            {
+                "enddate": "2007-03-12 | 2007-03-18", 
+                "endrevid": 116092932, 
+                "occurences": 6, 
+                "startdate": "2007-03-12 | 2007-03-18", 
+                "startrevi": 116088037, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2011-02-28 | 2011-03-06", 
+                "endrevid": 416364482, 
+                "occurences": 1, 
+                "startdate": "2011-02-21 | 2011-02-27", 
+                "startrevi": 416232455, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2010-05-03 | 2010-05-09", 
+                "endrevid": 360604599, 
+                "occurences": 1, 
+                "startdate": "2010-05-03 | 2010-05-09", 
+                "startrevi": 360337968, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-07-31 | 2006-08-06", 
+                "endrevid": 67086635, 
+                "occurences": 1, 
+                "startdate": "2006-07-31 | 2006-08-06", 
+                "startrevi": 67086505, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-10-09 | 2006-10-15", 
+                "endrevid": 81179573, 
+                "occurences": 1, 
+                "startdate": "2006-10-09 | 2006-10-15", 
+                "startrevi": 81147988, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-04-03 | 2006-04-09", 
+                "endrevid": 46931673, 
+                "occurences": 3, 
+                "startdate": "2006-04-03 | 2006-04-09", 
+                "startrevi": 46912631, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-12-25 | 2006-12-31", 
+                "endrevid": 97398769, 
+                "occurences": 1, 
+                "startdate": "2006-12-25 | 2006-12-31", 
+                "startrevi": 97347184, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2007-03-05 | 2007-03-11", 
+                "endrevid": 113928197, 
+                "occurences": 15, 
+                "startdate": "2007-03-05 | 2007-03-11", 
+                "startrevi": 113917622, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2008-12-01 | 2008-12-07", 
+                "endrevid": 255399047, 
+                "occurences": 1, 
+                "startdate": "2008-12-01 | 2008-12-07", 
+                "startrevi": 255270450, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2010-01-04 | 2010-01-10", 
+                "endrevid": 335861384, 
+                "occurences": 1, 
+                "startdate": "2010-01-04 | 2010-01-10", 
+                "startrevi": 335855668, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2009-12-07 | 2009-12-13", 
+                "endrevid": 331258957, 
+                "occurences": 1, 
+                "startdate": "2009-12-07 | 2009-12-13", 
+                "startrevi": 331066270, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2007-01-15 | 2007-01-21", 
+                "endrevid": 101707276, 
+                "occurences": 8, 
+                "startdate": "2007-01-15 | 2007-01-21", 
+                "startrevi": 101664666, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2005-09-05 | 2005-09-11", 
+                "endrevid": 22974067, 
+                "occurences": 2, 
+                "startdate": "2005-09-05 | 2005-09-11", 
+                "startrevi": 22972250, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-03-27 | 2006-04-02", 
+                "endrevid": 46066545, 
+                "occurences": 1, 
+                "startdate": "2006-03-27 | 2006-04-02", 
+                "startrevi": 46061774, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2007-08-06 | 2007-08-12", 
+                "endrevid": 150202444, 
+                "occurences": 1, 
+                "startdate": "2007-08-06 | 2007-08-12", 
+                "startrevi": 150194163, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2007-02-05 | 2007-02-11", 
+                "endrevid": 106130547, 
+                "occurences": 1, 
+                "startdate": "2007-02-05 | 2007-02-11", 
+                "startrevi": 106118866, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2007-04-02 | 2007-04-08", 
+                "endrevid": 120669868, 
+                "occurences": 3, 
+                "startdate": "2007-04-02 | 2007-04-08", 
+                "startrevi": 120667041, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2007-04-30 | 2007-05-06", 
+                "endrevid": 127434343, 
+                "occurences": 1, 
+                "startdate": "2007-04-30 | 2007-05-06", 
+                "startrevi": 127423731, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-07-24 | 2006-07-30", 
+                "endrevid": 66076790, 
+                "occurences": 1, 
+                "startdate": "2006-07-24 | 2006-07-30", 
+                "startrevi": 66076512, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2007-01-22 | 2007-01-28", 
+                "endrevid": 103427098, 
+                "occurences": 10, 
+                "startdate": "2007-01-22 | 2007-01-28", 
+                "startrevi": 103418400, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2010-05-31 | 2010-06-06", 
+                "endrevid": 366219968, 
+                "occurences": 3, 
+                "startdate": "2010-05-31 | 2010-06-06", 
+                "startrevi": 366198644, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-10-02 | 2006-10-08", 
+                "endrevid": 79253471, 
+                "occurences": 5, 
+                "startdate": "2006-10-02 | 2006-10-08", 
+                "startrevi": 79249646, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-05-22 | 2006-05-28", 
+                "endrevid": 54998693, 
+                "occurences": 1, 
+                "startdate": "2006-05-22 | 2006-05-28", 
+                "startrevi": 54998640, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-06-19 | 2006-06-25", 
+                "endrevid": 60041802, 
+                "occurences": 3, 
+                "startdate": "2006-06-19 | 2006-06-25", 
+                "startrevi": 60041539, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2007-03-19 | 2007-03-25", 
+                "endrevid": 116221007, 
+                "occurences": 1, 
+                "startdate": "2007-03-19 | 2007-03-25", 
+                "startrevi": 116156624, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2009-12-21 | 2009-12-27", 
+                "endrevid": 333639317, 
+                "occurences": 2, 
+                "startdate": "2009-12-21 | 2009-12-27", 
+                "startrevi": 333636553, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2005-11-28 | 2005-12-04", 
+                "endrevid": 29617748, 
+                "occurences": 1, 
+                "startdate": "2005-11-28 | 2005-12-04", 
+                "startrevi": 29531052, 
+                "template": "bias/POV"
+            }
+        ], 
+        "POV-check": [
+            {
+                "enddate": "2009-02-16 | 2009-02-22", 
+                "endrevid": 272202773, 
+                "occurences": 1, 
+                "startdate": "2009-02-16 | 2009-02-22", 
+                "startrevi": 272183399, 
+                "template": "bias/POV-check"
+            }, 
+            {
+                "enddate": "2007-03-19 | 2007-03-25", 
+                "endrevid": 117751276, 
+                "occurences": 7, 
+                "startdate": "2007-03-19 | 2007-03-25", 
+                "startrevi": 117512672, 
+                "template": "bias/POV-check"
+            }, 
+            {
+                "enddate": "2007-01-22 | 2007-01-28", 
+                "endrevid": 103301011, 
+                "occurences": 1, 
+                "startdate": "2007-01-22 | 2007-01-28", 
+                "startrevi": 103300674, 
+                "template": "bias/POV-check"
+            }
+        ], 
+        "POV-check-section": [], 
+        "POV-lead": [], 
+        "POV-map": [], 
+        "POV-section": [
+            {
+                "enddate": "2010-05-24 | 2010-05-30", 
+                "endrevid": 363939950, 
+                "occurences": 1, 
+                "startdate": "2010-05-24 | 2010-05-30", 
+                "startrevi": 363836814, 
+                "template": "bias/POV-section"
+            }, 
+            {
+                "enddate": "2010-05-31 | 2010-06-06", 
+                "endrevid": 365969030, 
+                "occurences": 1, 
+                "startdate": "2010-05-31 | 2010-06-06", 
+                "startrevi": 365938266, 
+                "template": "bias/POV-section"
+            }, 
+            {
+                "enddate": "2007-05-28 | 2007-06-03", 
+                "endrevid": 134405376, 
+                "occurences": 3, 
+                "startdate": "2007-05-28 | 2007-06-03", 
+                "startrevi": 134401987, 
+                "template": "bias/POV-section"
+            }, 
+            {
+                "enddate": "2006-06-19 | 2006-06-25", 
+                "endrevid": 60197114, 
+                "occurences": 1, 
+                "startdate": "2006-06-19 | 2006-06-25", 
+                "startrevi": 60185327, 
+                "template": "bias/POV-section"
+            }
+        ], 
+        "POV-statement": [
+            {
+                "enddate": "2010-05-31 | 2010-06-06", 
+                "endrevid": 365969030, 
+                "occurences": 3, 
+                "startdate": "2010-05-31 | 2010-06-06", 
+                "startrevi": 365938266, 
+                "template": "bias/POV-statement"
+            }, 
+            {
+                "enddate": "2011-06-06 | 2011-06-12", 
+                "endrevid": 432906858, 
+                "occurences": 1, 
+                "startdate": "2011-05-30 | 2011-06-05", 
+                "startrevi": 432731297, 
+                "template": "bias/POV-statement"
+            }
+        ], 
+        "POV-title": [], 
+        "Partisan sources": [], 
+        "Peacock": [], 
+        "Pseudo": [], 
+        "Puffery": [], 
+        "Recentism": [], 
+        "Self-published": [], 
+        "Self-published inline": [], 
+        "Story": [], 
+        "Systemic bias": [], 
+        "Tone": [], 
+        "Too few opinions": [], 
+        "USgovtPOV": [], 
+        "Unbalanced": [], 
+        "Unbalanced section": [], 
+        "Undue": [
+            {
+                "enddate": "2010-05-31 | 2010-06-06", 
+                "endrevid": 365969030, 
+                "occurences": 1, 
+                "startdate": "2010-05-31 | 2010-06-06", 
+                "startrevi": 365938266, 
+                "template": "bias/Undue"
+            }
+        ], 
+        "Weasel": [
+            {
+                "enddate": "2007-04-09 | 2007-04-15", 
+                "endrevid": 122655136, 
+                "occurences": 1, 
+                "startdate": "2007-04-09 | 2007-04-15", 
+                "startrevi": 122653227, 
+                "template": "bias/Weasel"
+            }, 
+            {
+                "enddate": "2007-01-08 | 2007-01-14", 
+                "endrevid": 99805734, 
+                "occurences": 1, 
+                "startdate": "2007-01-08 | 2007-01-14", 
+                "startrevi": 99805190, 
+                "template": "bias/Weasel"
+            }, 
+            {
+                "enddate": "2007-03-26 | 2007-04-01", 
+                "endrevid": 118213917, 
+                "occurences": 1, 
+                "startdate": "2007-03-19 | 2007-03-25", 
+                "startrevi": 117860655, 
+                "template": "bias/Weasel"
+            }, 
+            {
+                "enddate": "2006-06-19 | 2006-06-25", 
+                "endrevid": 60524074, 
+                "occurences": 1, 
+                "startdate": "2006-06-19 | 2006-06-25", 
+                "startrevi": 60475057, 
+                "template": "bias/Weasel"
+            }, 
+            {
+                "enddate": "2007-03-19 | 2007-03-25", 
+                "endrevid": 117859582, 
+                "occurences": 1, 
+                "startdate": "2007-03-19 | 2007-03-25", 
+                "startrevi": 117847116, 
+                "template": "bias/Weasel"
+            }, 
+            {
+                "enddate": "2007-04-16 | 2007-04-22", 
+                "endrevid": 123471024, 
+                "occurences": 1, 
+                "startdate": "2007-04-16 | 2007-04-22", 
+                "startrevi": 123415412, 
+                "template": "bias/Weasel"
+            }, 
+            {
+                "enddate": "2007-03-26 | 2007-04-01", 
+                "endrevid": 118736123, 
+                "occurences": 1, 
+                "startdate": "2007-03-26 | 2007-04-01", 
+                "startrevi": 118734232, 
+                "template": "bias/Weasel"
+            }
+        ], 
+        "Which?": [], 
+        "Who": [
+            {
+                "enddate": "2007-03-12 | 2007-03-18", 
+                "endrevid": 116059171, 
+                "occurences": 1, 
+                "startdate": "2007-03-12 | 2007-03-18", 
+                "startrevi": 114580052, 
+                "template": "bias/Who"
+            }, 
+            {
+                "enddate": "2007-04-09 | 2007-04-15", 
+                "endrevid": 122696482, 
+                "occurences": 1, 
+                "startdate": "2007-04-09 | 2007-04-15", 
+                "startrevi": 122685366, 
+                "template": "bias/Who"
+            }, 
+            {
+                "enddate": "2007-04-09 | 2007-04-15", 
+                "endrevid": 122684868, 
+                "occurences": 1, 
+                "startdate": "2007-03-26 | 2007-04-01", 
+                "startrevi": 118757094, 
+                "template": "bias/Who"
+            }, 
+            {
+                "enddate": "2007-03-26 | 2007-04-01", 
+                "endrevid": 118752281, 
+                "occurences": 1, 
+                "startdate": "2007-03-19 | 2007-03-25", 
+                "startrevi": 116581931, 
+                "template": "bias/Who"
+            }, 
+            {
+                "enddate": "2007-03-19 | 2007-03-25", 
+                "endrevid": 116581688, 
+                "occurences": 1, 
+                "startdate": "2007-03-12 | 2007-03-18", 
+                "startrevi": 116060507, 
+                "template": "bias/Who"
+            }, 
+            {
+                "enddate": "2011-05-16 | 2011-05-22", 
+                "endrevid": 429647861, 
+                "occurences": 1, 
+                "startdate": "2011-03-14 | 2011-03-20", 
+                "startrevi": 419294500, 
+                "template": "bias/Who"
+            }, 
+            {
+                "enddate": "2009-05-04 | 2009-05-10", 
+                "endrevid": 289101213, 
+                "occurences": 1, 
+                "startdate": "2009-04-27 | 2009-05-03", 
+                "startrevi": 286763421, 
+                "template": "bias/Who"
+            }
+        ], 
+        "advert": [], 
+        "manual": [], 
+        "pbneutral": [], 
+        "undue-inline": []
+    }, 
+    "dispute": {
+        "3O": [
+            {
+                "enddate": "2009-12-07 | 2009-12-13", 
+                "endrevid": 330913131, 
+                "occurences": 1, 
+                "startdate": "2009-12-07 | 2009-12-13", 
+                "startrevi": 330907804, 
+                "template": "dispute/3O"
+            }
+        ], 
+        "3OR": [], 
+        "3OR/doc": [], 
+        "Accessibility dispute": [], 
+        "Cleanup-articletitle": [], 
+        "Conflated": [], 
+        "Content": [], 
+        "Controversial": [
+            {
+                "enddate": "2007-02-12 | 2007-02-18", 
+                "endrevid": 107744927, 
+                "occurences": 1, 
+                "startdate": "2007-02-12 | 2007-02-18", 
+                "startrevi": 107736967, 
+                "template": "dispute/Controversial"
+            }
+        ], 
+        "Dispute about": [], 
+        "Dispute progress": [], 
+        "Dispute-resolution": [], 
+        "Disputed": [
+            {
+                "enddate": "2009-06-01 | 2009-06-07", 
+                "endrevid": 294484315, 
+                "occurences": 1, 
+                "startdate": "2009-06-01 | 2009-06-07", 
+                "startrevi": 294268882, 
+                "template": "dispute/Disputed"
+            }, 
+            {
+                "enddate": "2006-06-19 | 2006-06-25", 
+                "endrevid": 59738299, 
+                "occurences": 1, 
+                "startdate": "2006-06-19 | 2006-06-25", 
+                "startrevi": 59738123, 
+                "template": "dispute/Disputed"
+            }, 
+            {
+                "enddate": "2006-08-14 | 2006-08-20", 
+                "endrevid": 69547104, 
+                "occurences": 2, 
+                "startdate": "2006-08-14 | 2006-08-20", 
+                "startrevi": 69545693, 
+                "template": "dispute/Disputed"
+            }
+        ], 
+        "Disputed chem": [], 
+        "Disputed title": [], 
+        "Disputed-category": [], 
+        "Disputed-list": [], 
+        "Disputed-section": [
+            {
+                "enddate": "2005-06-20 | 2005-06-26", 
+                "endrevid": 15533019, 
+                "occurences": 1, 
+                "startdate": "2005-06-20 | 2005-06-26", 
+                "startrevi": 15532967, 
+                "template": "dispute/Disputed-section"
+            }
+        ], 
+        "Disputed-section/sandbox": [], 
+        "Disputedtag": [], 
+        "Hidden content dispute": [], 
+        "Jew-MJ dispute": [], 
+        "List dispute": [], 
+        "List missing criteria": [], 
+        "Out of date": [], 
+        "Pbneutral": [], 
+        "Policycontroversy": [], 
+        "RFCheader": [], 
+        "Rfc": [], 
+        "Third opinion": [], 
+        "Under discussion": []
+    }, 
+    "protected": {
+        "permanently protected": [], 
+        "pp-create": [], 
+        "pp-dispute": [
+            {
+                "enddate": "2009-10-05 | 2009-10-11", 
+                "endrevid": 318744879, 
+                "occurences": 1, 
+                "startdate": "2009-10-05 | 2009-10-11", 
+                "startrevi": 318562579, 
+                "template": "protected/pp-dispute"
+            }, 
+            {
+                "enddate": "2007-10-01 | 2007-10-07", 
+                "endrevid": 161696671, 
+                "occurences": 1, 
+                "startdate": "2007-09-24 | 2007-09-30", 
+                "startrevi": 160843339, 
+                "template": "protected/pp-dispute"
+            }, 
+            {
+                "enddate": "2008-10-13 | 2008-10-19", 
+                "endrevid": 245276752, 
+                "occurences": 1, 
+                "startdate": "2008-10-13 | 2008-10-19", 
+                "startrevi": 245275213, 
+                "template": "protected/pp-dispute"
+            }, 
+            {
+                "enddate": "2007-04-09 | 2007-04-15", 
+                "endrevid": 122586512, 
+                "occurences": 1, 
+                "startdate": "2007-04-02 | 2007-04-08", 
+                "startrevi": 120834222, 
+                "template": "protected/pp-dispute"
+            }, 
+            {
+                "enddate": "2007-03-19 | 2007-03-25", 
+                "endrevid": 117869076, 
+                "occurences": 1, 
+                "startdate": "2007-03-19 | 2007-03-25", 
+                "startrevi": 117868934, 
+                "template": "protected/pp-dispute"
+            }, 
+            {
+                "enddate": "2007-03-26 | 2007-04-01", 
+                "endrevid": 118213917, 
+                "occurences": 2, 
+                "startdate": "2007-03-26 | 2007-04-01", 
+                "startrevi": 117879571, 
+                "template": "protected/pp-dispute"
+            }, 
+            {
+                "enddate": "2007-04-16 | 2007-04-22", 
+                "endrevid": 123157389, 
+                "occurences": 1, 
+                "startdate": "2007-04-09 | 2007-04-15", 
+                "startrevi": 122943329, 
+                "template": "protected/pp-dispute"
+            }, 
+            {
+                "enddate": "2009-12-07 | 2009-12-13", 
+                "endrevid": 330673251, 
+                "occurences": 1, 
+                "startdate": "2009-11-30 | 2009-12-06", 
+                "startrevi": 329184803, 
+                "template": "protected/pp-dispute"
+            }
+        ], 
+        "pp-meta": [], 
+        "pp-move": [], 
+        "pp-move-dispute": [], 
+        "pp-move-indef": [
+            {
+                "enddate": "2010-05-31 | 2010-06-06", 
+                "endrevid": 366253412, 
+                "occurences": 1, 
+                "startdate": "2010-01-25 | 2010-01-31", 
+                "startrevi": 339923492, 
+                "template": "protected/pp-move-indef"
+            }, 
+            {
+                "enddate": "2009-11-30 | 2009-12-06", 
+                "endrevid": 329184803, 
+                "occurences": 1, 
+                "startdate": "2009-10-05 | 2009-10-11", 
+                "startrevi": 318744879, 
+                "template": "protected/pp-move-indef"
+            }, 
+            {
+                "enddate": "2010-06-14 | 2010-06-20", 
+                "endrevid": 368885128, 
+                "occurences": 1, 
+                "startdate": "2010-05-31 | 2010-06-06", 
+                "startrevi": 366253499, 
+                "template": "protected/pp-move-indef"
+            }
+        ], 
+        "pp-move-vandalism": [], 
+        "pp-office": [], 
+        "pp-protected": [
+            {
+                "enddate": "2008-05-12 | 2008-05-18", 
+                "endrevid": 213128611, 
+                "occurences": 4, 
+                "startdate": "2008-05-12 | 2008-05-18", 
+                "startrevi": 212580049, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2007-08-13 | 2007-08-19", 
+                "endrevid": 152217251, 
+                "occurences": 1, 
+                "startdate": "2007-06-25 | 2007-07-01", 
+                "startrevi": 140880128, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2008-04-21 | 2008-04-27", 
+                "endrevid": 208123001, 
+                "occurences": 1, 
+                "startdate": "2008-04-07 | 2008-04-13", 
+                "startrevi": 205244065, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2007-10-01 | 2007-10-07", 
+                "endrevid": 162147623, 
+                "occurences": 1, 
+                "startdate": "2007-10-01 | 2007-10-07", 
+                "startrevi": 161704501, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2008-10-13 | 2008-10-19", 
+                "endrevid": 245275213, 
+                "occurences": 1, 
+                "startdate": "2008-05-12 | 2008-05-18", 
+                "startrevi": 213171362, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2008-05-05 | 2008-05-11", 
+                "endrevid": 211177071, 
+                "occurences": 1, 
+                "startdate": "2008-05-05 | 2008-05-11", 
+                "startrevi": 210843461, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2006-01-02 | 2006-01-08", 
+                "endrevid": 34064153, 
+                "occurences": 2, 
+                "startdate": "2006-01-02 | 2006-01-08", 
+                "startrevi": 34005845, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2008-04-28 | 2008-05-04", 
+                "endrevid": 209053177, 
+                "occurences": 1, 
+                "startdate": "2008-04-21 | 2008-04-27", 
+                "startrevi": 208129081, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2006-01-16 | 2006-01-22", 
+                "endrevid": 36116388, 
+                "occurences": 1, 
+                "startdate": "2006-01-16 | 2006-01-22", 
+                "startrevi": 36077844, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2007-05-07 | 2007-05-13", 
+                "endrevid": 129787537, 
+                "occurences": 1, 
+                "startdate": "2007-04-30 | 2007-05-06", 
+                "startrevi": 127489057, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2008-04-07 | 2008-04-13", 
+                "endrevid": 205145356, 
+                "occurences": 2, 
+                "startdate": "2008-04-07 | 2008-04-13", 
+                "startrevi": 204157492, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2008-05-05 | 2008-05-11", 
+                "endrevid": 210843254, 
+                "occurences": 1, 
+                "startdate": "2008-04-28 | 2008-05-04", 
+                "startrevi": 209464263, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2011-07-18 | 2011-07-24", 
+                "endrevid": 440449886, 
+                "occurences": 1, 
+                "startdate": "2010-06-21 | 2010-06-27", 
+                "startrevi": 370004802, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2007-04-30 | 2007-05-06", 
+                "endrevid": 127399060, 
+                "occurences": 1, 
+                "startdate": "2007-04-16 | 2007-04-22", 
+                "startrevi": 123479024, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2007-04-30 | 2007-05-06", 
+                "endrevid": 127479312, 
+                "occurences": 2, 
+                "startdate": "2007-04-30 | 2007-05-06", 
+                "startrevi": 127401921, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2007-06-25 | 2007-07-01", 
+                "endrevid": 140814573, 
+                "occurences": 1, 
+                "startdate": "2007-05-21 | 2007-05-27", 
+                "startrevi": 133387798, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2007-09-24 | 2007-09-30", 
+                "endrevid": 160843339, 
+                "occurences": 1, 
+                "startdate": "2007-08-13 | 2007-08-19", 
+                "startrevi": 152275774, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2008-05-12 | 2008-05-18", 
+                "endrevid": 212177153, 
+                "occurences": 1, 
+                "startdate": "2008-05-05 | 2008-05-11", 
+                "startrevi": 211226434, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2006-05-22 | 2006-05-28", 
+                "endrevid": 54961906, 
+                "occurences": 1, 
+                "startdate": "2006-05-22 | 2006-05-28", 
+                "startrevi": 54745002, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2008-04-28 | 2008-05-04", 
+                "endrevid": 209457478, 
+                "occurences": 2, 
+                "startdate": "2008-04-28 | 2008-05-04", 
+                "startrevi": 209054527, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2007-05-21 | 2007-05-27", 
+                "endrevid": 133167780, 
+                "occurences": 1, 
+                "startdate": "2007-05-07 | 2007-05-13", 
+                "startrevi": 129807956, 
+                "template": "protected/pp-protected"
+            }, 
+            {
+                "enddate": "2007-05-21 | 2007-05-27", 
+                "endrevid": 133386060, 
+                "occurences": 2, 
+                "startdate": "2007-05-21 | 2007-05-27", 
+                "startrevi": 133190102, 
+                "template": "protected/pp-protected"
+            }
+        ], 
+        "pp-semi-blp": [], 
+        "pp-semi-indef": [
+            {
+                "enddate": "2007-01-29 | 2007-02-04", 
+                "endrevid": 105115068, 
+                "occurences": 1, 
+                "startdate": "2007-01-29 | 2007-02-04", 
+                "startrevi": 104806869, 
+                "template": "protected/pp-semi-indef"
+            }, 
+            {
+                "enddate": "2007-02-12 | 2007-02-18", 
+                "endrevid": 109079949, 
+                "occurences": 3, 
+                "startdate": "2007-02-12 | 2007-02-18", 
+                "startrevi": 107736741, 
+                "template": "protected/pp-semi-indef"
+            }, 
+            {
+                "enddate": "2007-02-19 | 2007-02-25", 
+                "endrevid": 109204931, 
+                "occurences": 1, 
+                "startdate": "2007-02-12 | 2007-02-18", 
+                "startrevi": 109110574, 
+                "template": "protected/pp-semi-indef"
+            }, 
+            {
+                "enddate": "2007-02-05 | 2007-02-11", 
+                "endrevid": 107293414, 
+                "occurences": 1, 
+                "startdate": "2007-02-05 | 2007-02-11", 
+                "startrevi": 106611415, 
+                "template": "protected/pp-semi-indef"
+            }, 
+            {
+                "enddate": "2007-02-19 | 2007-02-25", 
+                "endrevid": 109363477, 
+                "occurences": 3, 
+                "startdate": "2007-02-19 | 2007-02-25", 
+                "startrevi": 109312086, 
+                "template": "protected/pp-semi-indef"
+            }, 
+            {
+                "enddate": "2007-02-05 | 2007-02-11", 
+                "endrevid": 106611193, 
+                "occurences": 1, 
+                "startdate": "2007-01-29 | 2007-02-04", 
+                "startrevi": 105116833, 
+                "template": "protected/pp-semi-indef"
+            }, 
+            {
+                "enddate": "2007-01-15 | 2007-01-21", 
+                "endrevid": 102008210, 
+                "occurences": 1, 
+                "startdate": "2007-01-15 | 2007-01-21", 
+                "startrevi": 101708045, 
+                "template": "protected/pp-semi-indef"
+            }, 
+            {
+                "enddate": "2010-05-31 | 2010-06-06", 
+                "endrevid": 366253412, 
+                "occurences": 1, 
+                "startdate": "2009-11-02 | 2009-11-08", 
+                "startrevi": 323997091, 
+                "template": "protected/pp-semi-indef"
+            }, 
+            {
+                "enddate": "2007-01-15 | 2007-01-21", 
+                "endrevid": 101706114, 
+                "occurences": 1, 
+                "startdate": "2007-01-01 | 2007-01-07", 
+                "startrevi": 99174221, 
+                "template": "protected/pp-semi-indef"
+            }, 
+            {
+                "enddate": "2010-06-14 | 2010-06-20", 
+                "endrevid": 369012124, 
+                "occurences": 1, 
+                "startdate": "2010-05-31 | 2010-06-06", 
+                "startrevi": 366253499, 
+                "template": "protected/pp-semi-indef"
+            }, 
+            {
+                "enddate": "2007-01-29 | 2007-02-04", 
+                "endrevid": 104804051, 
+                "occurences": 1, 
+                "startdate": "2007-01-15 | 2007-01-21", 
+                "startrevi": 102012332, 
+                "template": "protected/pp-semi-indef"
+            }
+        ], 
+        "pp-semi-sock": [], 
+        "pp-semi-spambot": [], 
+        "pp-semi-usertalk": [], 
+        "pp-template": [], 
+        "pp-usertalk": [], 
+        "pp-vandalism": [], 
+        "protected2": [], 
+        "reset": [], 
+        "sprotected2": [
+            {
+                "enddate": "2007-01-29 | 2007-02-04", 
+                "endrevid": 105115068, 
+                "occurences": 1, 
+                "startdate": "2007-01-29 | 2007-02-04", 
+                "startrevi": 104806869, 
+                "template": "protected/sprotected2"
+            }, 
+            {
+                "enddate": "2007-02-12 | 2007-02-18", 
+                "endrevid": 109079949, 
+                "occurences": 3, 
+                "startdate": "2007-02-12 | 2007-02-18", 
+                "startrevi": 107736741, 
+                "template": "protected/sprotected2"
+            }, 
+            {
+                "enddate": "2007-02-19 | 2007-02-25", 
+                "endrevid": 109204931, 
+                "occurences": 1, 
+                "startdate": "2007-02-12 | 2007-02-18", 
+                "startrevi": 109110574, 
+                "template": "protected/sprotected2"
+            }, 
+            {
+                "enddate": "2007-02-05 | 2007-02-11", 
+                "endrevid": 107293414, 
+                "occurences": 1, 
+                "startdate": "2007-02-05 | 2007-02-11", 
+                "startrevi": 106611415, 
+                "template": "protected/sprotected2"
+            }, 
+            {
+                "enddate": "2007-02-19 | 2007-02-25", 
+                "endrevid": 109363477, 
+                "occurences": 3, 
+                "startdate": "2007-02-19 | 2007-02-25", 
+                "startrevi": 109312086, 
+                "template": "protected/sprotected2"
+            }, 
+            {
+                "enddate": "2007-02-05 | 2007-02-11", 
+                "endrevid": 106611193, 
+                "occurences": 1, 
+                "startdate": "2007-01-29 | 2007-02-04", 
+                "startrevi": 105116833, 
+                "template": "protected/sprotected2"
+            }, 
+            {
+                "enddate": "2007-01-15 | 2007-01-21", 
+                "endrevid": 102008210, 
+                "occurences": 1, 
+                "startdate": "2007-01-15 | 2007-01-21", 
+                "startrevi": 101708045, 
+                "template": "protected/sprotected2"
+            }, 
+            {
+                "enddate": "2007-01-15 | 2007-01-21", 
+                "endrevid": 101706114, 
+                "occurences": 1, 
+                "startdate": "2007-01-01 | 2007-01-07", 
+                "startrevi": 99174221, 
+                "template": "protected/sprotected2"
+            }, 
+            {
+                "enddate": "2007-01-29 | 2007-02-04", 
+                "endrevid": 104804051, 
+                "occurences": 1, 
+                "startdate": "2007-01-15 | 2007-01-21", 
+                "startrevi": 102012332, 
+                "template": "protected/sprotected2"
+            }
+        ], 
+        "temporarily protected": []
+    }, 
+    "splitting": {
+        "Afd-merge from": [], 
+        "Afd-merge to": [], 
+        "Cleanup split": [], 
+        "Merge from\u00b6": [
+            {
+                "enddate": "2005-10-31 | 2005-11-06", 
+                "endrevid": 27391528, 
+                "occurences": 1, 
+                "startdate": "2005-10-31 | 2005-11-06", 
+                "startrevi": 27386455, 
+                "template": "splitting/Merge from\u00b6"
+            }
+        ], 
+        "Merge to\u00b6": [], 
+        "Merged-from": [], 
+        "Merged-to": [], 
+        "Merging": [], 
+        "Split": [], 
+        "Split dab": [], 
+        "Split section": [], 
+        "Split sections": [], 
+        "Split-apart": []
+    }
+}

@@ -1,0 +1,307 @@
+{
+    "bias": {
+        "1911 POV": [], 
+        "Autobiography": [], 
+        "By whom": [], 
+        "COI": [], 
+        "COI-check": [], 
+        "COI-section": [], 
+        "Catholic-cleanup": [], 
+        "Cherry picked": [], 
+        "Coat rack": [], 
+        "Like-resume": [], 
+        "Lopsided": [], 
+        "Magazine": [], 
+        "Memorial": [], 
+        "NPOV disputes progress": [], 
+        "NPOV language": [], 
+        "Obituary": [], 
+        "POV": [
+            {
+                "enddate": "2009-04-20 | 2009-04-26", 
+                "endrevid": 285471852, 
+                "occurences": 1, 
+                "startdate": "2009-04-20 | 2009-04-26", 
+                "startrevi": 285194435, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2007-06-04 | 2007-06-10", 
+                "endrevid": 136084810, 
+                "occurences": 1, 
+                "startdate": "2007-06-04 | 2007-06-10", 
+                "startrevi": 136081725, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-05-29 | 2006-06-04", 
+                "endrevid": 56196104, 
+                "occurences": 3, 
+                "startdate": "2006-05-29 | 2006-06-04", 
+                "startrevi": 56193489, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2007-03-19 | 2007-03-25", 
+                "endrevid": 116303017, 
+                "occurences": 1, 
+                "startdate": "2007-03-12 | 2007-03-18", 
+                "startrevi": 116098304, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2009-12-14 | 2009-12-20", 
+                "endrevid": 331649055, 
+                "occurences": 2, 
+                "startdate": "2009-12-14 | 2009-12-20", 
+                "startrevi": 331630951, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2009-12-14 | 2009-12-20", 
+                "endrevid": 331566790, 
+                "occurences": 1, 
+                "startdate": "2009-12-07 | 2009-12-13", 
+                "startrevi": 330927398, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2009-12-07 | 2009-12-13", 
+                "endrevid": 330913075, 
+                "occurences": 4, 
+                "startdate": "2009-12-07 | 2009-12-13", 
+                "startrevi": 330911058, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-07-31 | 2006-08-06", 
+                "endrevid": 67642988, 
+                "occurences": 1, 
+                "startdate": "2006-07-24 | 2006-07-30", 
+                "startrevi": 66421085, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2009-10-19 | 2009-10-25", 
+                "endrevid": 321889548, 
+                "occurences": 1, 
+                "startdate": "2009-10-19 | 2009-10-25", 
+                "startrevi": 321869327, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2009-11-30 | 2009-12-06", 
+                "endrevid": 329313783, 
+                "occurences": 2, 
+                "startdate": "2009-11-30 | 2009-12-06", 
+                "startrevi": 329295620, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2006-07-31 | 2006-08-06", 
+                "endrevid": 67668136, 
+                "occurences": 2, 
+                "startdate": "2006-07-31 | 2006-08-06", 
+                "startrevi": 67664515, 
+                "template": "bias/POV"
+            }, 
+            {
+                "enddate": "2009-09-14 | 2009-09-20", 
+                "endrevid": 315028139, 
+                "occurences": 3, 
+                "startdate": "2009-09-14 | 2009-09-20", 
+                "startrevi": 314986071, 
+                "template": "bias/POV"
+            }
+        ], 
+        "POV-check": [
+            {
+                "enddate": "2009-12-14 | 2009-12-20", 
+                "endrevid": 332635712, 
+                "occurences": 1, 
+                "startdate": "2009-12-14 | 2009-12-20", 
+                "startrevi": 331649055, 
+                "template": "bias/POV-check"
+            }
+        ], 
+        "POV-check-section": [], 
+        "POV-lead": [], 
+        "POV-map": [], 
+        "POV-section": [
+            {
+                "enddate": "2007-02-12 | 2007-02-18", 
+                "endrevid": 108423194, 
+                "occurences": 1, 
+                "startdate": "2007-02-05 | 2007-02-11", 
+                "startrevi": 106172070, 
+                "template": "bias/POV-section"
+            }
+        ], 
+        "POV-statement": [], 
+        "POV-title": [
+            {
+                "enddate": "2007-06-04 | 2007-06-10", 
+                "endrevid": 136081725, 
+                "occurences": 1, 
+                "startdate": "2007-06-04 | 2007-06-10", 
+                "startrevi": 136011963, 
+                "template": "bias/POV-title"
+            }
+        ], 
+        "Partisan sources": [], 
+        "Peacock": [], 
+        "Pseudo": [], 
+        "Puffery": [], 
+        "Recentism": [], 
+        "Self-published": [], 
+        "Self-published inline": [], 
+        "Story": [], 
+        "Systemic bias": [], 
+        "Tone": [], 
+        "Too few opinions": [], 
+        "USgovtPOV": [], 
+        "Unbalanced": [], 
+        "Unbalanced section": [], 
+        "Undue": [], 
+        "Weasel": [], 
+        "Which?": [], 
+        "Who": [], 
+        "advert": [], 
+        "manual": [], 
+        "pbneutral": [], 
+        "undue-inline": []
+    }, 
+    "dispute": {
+        "3O": [], 
+        "3OR": [], 
+        "3OR/doc": [], 
+        "Accessibility dispute": [], 
+        "Cleanup-articletitle": [], 
+        "Conflated": [], 
+        "Content": [
+            {
+                "enddate": "2010-10-18 | 2010-10-24", 
+                "endrevid": 391968514, 
+                "occurences": 1, 
+                "startdate": "2010-10-11 | 2010-10-17", 
+                "startrevi": 390972230, 
+                "template": "dispute/Content"
+            }, 
+            {
+                "enddate": "2010-11-22 | 2010-11-28", 
+                "endrevid": 398693773, 
+                "occurences": 1, 
+                "startdate": "2010-10-18 | 2010-10-24", 
+                "startrevi": 391984816, 
+                "template": "dispute/Content"
+            }
+        ], 
+        "Controversial": [], 
+        "Dispute about": [], 
+        "Dispute progress": [], 
+        "Dispute-resolution": [], 
+        "Disputed": [], 
+        "Disputed chem": [], 
+        "Disputed title": [], 
+        "Disputed-category": [], 
+        "Disputed-list": [], 
+        "Disputed-section": [], 
+        "Disputed-section/sandbox": [], 
+        "Disputedtag": [], 
+        "Hidden content dispute": [], 
+        "Jew-MJ dispute": [], 
+        "List dispute": [], 
+        "List missing criteria": [], 
+        "Out of date": [], 
+        "Pbneutral": [], 
+        "Policycontroversy": [], 
+        "RFCheader": [], 
+        "Rfc": [], 
+        "Third opinion": [], 
+        "Under discussion": []
+    }, 
+    "protected": {
+        "permanently protected": [], 
+        "pp-create": [], 
+        "pp-dispute": [
+            {
+                "enddate": "2009-12-14 | 2009-12-20", 
+                "endrevid": 332635712, 
+                "occurences": 1, 
+                "startdate": "2009-12-14 | 2009-12-20", 
+                "startrevi": 331660335, 
+                "template": "protected/pp-dispute"
+            }
+        ], 
+        "pp-meta": [], 
+        "pp-move": [], 
+        "pp-move-dispute": [], 
+        "pp-move-indef": [
+            {
+                "enddate": "2011-07-18 | 2011-07-24", 
+                "endrevid": 440452795, 
+                "occurences": 1, 
+                "startdate": "2011-03-07 | 2011-03-13", 
+                "startrevi": 418249586, 
+                "template": "protected/pp-move-indef"
+            }
+        ], 
+        "pp-move-vandalism": [], 
+        "pp-office": [], 
+        "pp-protected": [
+            {
+                "enddate": "2009-12-14 | 2009-12-20", 
+                "endrevid": 331605869, 
+                "occurences": 1, 
+                "startdate": "2009-11-30 | 2009-12-06", 
+                "startrevi": 328739512, 
+                "template": "protected/pp-protected"
+            }
+        ], 
+        "pp-semi-blp": [], 
+        "pp-semi-indef": [
+            {
+                "enddate": "2009-01-12 | 2009-01-18", 
+                "endrevid": 264472899, 
+                "occurences": 1, 
+                "startdate": "2008-06-02 | 2008-06-08", 
+                "startrevi": 217972428, 
+                "template": "protected/pp-semi-indef"
+            }
+        ], 
+        "pp-semi-sock": [
+            {
+                "enddate": "2011-03-07 | 2011-03-13", 
+                "endrevid": 418249586, 
+                "occurences": 1, 
+                "startdate": "2011-02-07 | 2011-02-13", 
+                "startrevi": 413313150, 
+                "template": "protected/pp-semi-sock"
+            }
+        ], 
+        "pp-semi-spambot": [], 
+        "pp-semi-usertalk": [], 
+        "pp-template": [], 
+        "pp-usertalk": [], 
+        "pp-vandalism": [], 
+        "protected2": [], 
+        "reset": [], 
+        "sprotected2": [], 
+        "temporarily protected": []
+    }, 
+    "splitting": {
+        "Afd-merge from": [], 
+        "Afd-merge to": [], 
+        "Cleanup split": [], 
+        "Merge from\u00b6": [], 
+        "Merge to\u00b6": [], 
+        "Merged-from": [], 
+        "Merged-to": [], 
+        "Merging": [], 
+        "Split": [], 
+        "Split dab": [], 
+        "Split section": [], 
+        "Split sections": [], 
+        "Split-apart": []
+    }
+}

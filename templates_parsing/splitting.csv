@@ -1,0 +1,18 @@
+Cleanup split,Split,Split-apart,Split dab,Split section,Split sections,Afd-merge from,Afd-merge to,Merge from¶,Merge to¶,Merged-from,Merged-to,Merging
+Cleanup split,Demerge,Split-multiple,Split dab,Spinnout,Split sections,Afd-merge from,Afd-mergeto,Include     ,Merge to¶,Merged-from,Merged-to,Merging
+,Split ships,Splitapart,Splitdab,Split-section,,Afd-mergefrom,Afdmergeto,Merge-from     ,Cfork     ,Merged     ,Merged to     ,Mergingsectionto
+,Split,Splitlong,,Splitsection,,Afdmergefrom,Afd-merge to,Merge-section     ,Merge into     ,Mergedfrom,Mergedto
+,,Splitunrelated,,Split section,,,,MergeFrom     ,Merge-to     
+,,Split-apart,,,,,,Mergefrom     ,MergePartial     
+,,,,,,,,Mergefrom-category     ,MergeTo     
+,,,,,,,,Mergefrom-multiple     ,Mergeinto     
+,,,,,,,,Mergefrommulti     ,Mergelist     
+,,,,,,,,Mergefrommultiple     ,Mergesectionto     
+,,,,,,,,Mergesection     ,Mergeto     
+,,,,,,,,Mergesections     ,Mergeto-disputed     
+,,,,,,,,Mergrefrom     ,Mergeto-multiple     
+,,,,,,,,Multimergefrom     ,Mergeto-section     
+,,,,,,,,Multiplemergefrom,MergetoCat     
+,,,,,,,,Merge from¶,Merging to     
+,,,,,,,,,Move section     
+,,,,,,,,,Multiplemergeto
